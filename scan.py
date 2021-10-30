@@ -4,7 +4,6 @@ import requests
 from discord_webhook import DiscordWebhook
 from bs4 import BeautifulSoup
 
-targeturl = 'https://flipbook.apps.gwo.pl/display/'
 
 num = random.randint(0,100000)
 nnum = (num < 100000)
